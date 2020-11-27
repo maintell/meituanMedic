@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meituanMedic", "meituanMedi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meituanMedicWF", "meituanMedicWF\meituanMedicWF.csproj", "{57CD8367-94BE-4C35-A848-2D84CC1F2C4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{18AB1365-9271-4A9E-9300-7E189E6269B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{57CD8367-94BE-4C35-A848-2D84CC1F2C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57CD8367-94BE-4C35-A848-2D84CC1F2C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57CD8367-94BE-4C35-A848-2D84CC1F2C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18AB1365-9271-4A9E-9300-7E189E6269B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AB1365-9271-4A9E-9300-7E189E6269B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AB1365-9271-4A9E-9300-7E189E6269B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AB1365-9271-4A9E-9300-7E189E6269B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,20 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.button1 = new System.Windows.Forms.Button();
+            this.txt_Log = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // Form1
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1200, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(104, 47);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Catch";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // txt_Log
+            // 
+            this.txt_Log.Location = new System.Drawing.Point(12, 12);
+            this.txt_Log.Multiline = true;
+            this.txt_Log.Name = "txt_Log";
+            this.txt_Log.Size = new System.Drawing.Size(1182, 745);
+            this.txt_Log.TabIndex = 1;
+            // 
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(828, 540);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1316, 769);
+            this.Controls.Add(this.txt_Log);
+            this.Controls.Add(this.button1);
+            this.Name = "MainForm";
+            this.ShowIcon = false;
+            this.Text = "Catch";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txt_Log;
     }
 }
 
