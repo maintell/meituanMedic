@@ -91,7 +91,7 @@
             // 
             // OriginalPrice
             // 
-            this.OriginalPrice.DataPropertyName = "SoldPrice";
+            this.OriginalPrice.DataPropertyName = "OriginalPrice";
             this.OriginalPrice.HeaderText = "原始价格";
             this.OriginalPrice.MinimumWidth = 6;
             this.OriginalPrice.Name = "OriginalPrice";
